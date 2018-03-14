@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.dart501.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/normal_space"
+                    android:text="@string/player_a"
+                    android:textSize="@dimen/player_name_size" />
+
+                <TextView
+                    android:id="@+id/player_a_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/big_space"
+                    android:gravity="center"
+                    android:text="@string/start_number"
+                    android:textSize="@dimen/player_score_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/small_space"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="decrementPlayerAField"
+                        android:text="@string/decrement_button" />
+
+                    <TextView
+                        android:id="@+id/player_a_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/small_space"
+                        android:layout_marginRight="@dimen/small_space"
+                        android:text="@string/start_field_0"
+                        android:textSize="@dimen/hit_player_field" />
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="incrementPlayerAField"
+                        android:text="@string/increment_button" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/big_space"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="singlePlayerA"
+                        android:text="@string/single_button" />
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="doublePlayerA"
+                        android:text="@string/double_button" />
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="triplePlayerA"
+                        android:text="@string/triple_button" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/small_space"
+                    android:layout_marginLeft="@dimen/normal_space"
+                    android:layout_marginRight="@dimen/normal_space"
+                    android:onClick="outerPlayerA"
+                    android:text="@string/outer_button" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/normal_space"
+                    android:layout_marginRight="@dimen/normal_space"
+                    android:onClick="bullPlayerA"
+                    android:text="@string/bull_button" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/normal_space"
+                    android:text="@string/player_b"
+                    android:textSize="@dimen/player_name_size" />
+
+                <TextView
+                    android:id="@+id/player_b_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/big_space"
+                    android:gravity="center"
+                    android:text="@string/start_number"
+                    android:textSize="@dimen/player_score_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/small_space"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="decrementPlayerBField"
+                        android:text="@string/decrement_button" />
+
+                    <TextView
+                        android:id="@+id/player_b_field"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/small_space"
+                        android:layout_marginRight="@dimen/small_space"
+                        android:text="@string/start_field_0"
+                        android:textSize="@dimen/hit_player_field" />
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="incrementPlayerBField"
+                        android:text="@string/increment_button" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/big_space"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="singlePlayerB"
+                        android:text="@string/single_button" />
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="doublePlayerB"
+                        android:text="@string/double_button" />
+
+                    <Button
+                        style="@style/SmallButton"
+                        android:onClick="triplePlayerB"
+                        android:text="@string/triple_button" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/small_space"
+                    android:layout_marginLeft="@dimen/normal_space"
+                    android:layout_marginRight="@dimen/normal_space"
+                    android:onClick="outerPlayerB"
+                    android:text="@string/outer_button" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/normal_space"
+                    android:layout_marginRight="@dimen/normal_space"
+                    android:onClick="bullPlayerB"
+                    android:text="@string/bull_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/normal_space"
+        android:onClick="resetScore"
+        android:text="@string/reset_button" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorPrimaryLight</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!-- Small Button Style. -->
+    <style name="SmallButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+</resources>

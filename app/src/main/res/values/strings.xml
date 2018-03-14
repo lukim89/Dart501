@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dart501</string>
+    <!-- Header  text for Player B table. -->
+    <string name="player_b">Player B</string>
+    <!-- Header  text for Player A table. -->
+    <string name="player_a">Player A</string>
+    <!-- Initial number of points. -->
+    <string name="start_number">501</string>
+    <!-- The starting number of the hit field. -->
+    <string name="start_field_0">0</string>
+    <!-- Name of Decrease button. -->
+    <string name="decrement_button">-</string>
+    <!-- Name of Increase button. -->
+    <string name="increment_button">+</string>
+    <!-- Name of button Single Points. -->
+    <string name="single_button">x1</string>
+    <!-- Name of button Double Points. -->
+    <string name="double_button">x2</string>
+    <!-- Name of button Triple Points. -->
+    <string name="triple_button">x3</string>
+    <!-- Name of button Bull. -->
+    <string name="bull_button">Bull</string>
+    <!-- Name of button Outer. -->
+    <string name="outer_button">Outer</string>
+    <!-- Name of button Reset. -->
+    <string name="reset_button">RESET</string>
+</resources>

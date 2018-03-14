@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The text size in players names fields. -->
+    <dimen name="player_name_size">20sp</dimen>
+    <!-- The text size in players scores field. -->
+    <dimen name="player_score_size">56sp</dimen>
+    <!-- The text size in players hits field. -->
+    <dimen name="hit_player_field">24sp</dimen>
+    <!-- Width and height of small buttons. -->
+    <dimen name="small_button">48dp</dimen>
+    <dimen name="big_space">24dp</dimen>
+    <dimen name="normal_space">16dp</dimen>
+    <dimen name="small_space">8dp</dimen>
+</resources>
