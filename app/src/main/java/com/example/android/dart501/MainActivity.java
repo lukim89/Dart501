@@ -10,10 +10,10 @@ public class MainActivity extends AppCompatActivity {
 
     int scorePlayerA = 501;
     int scorePlayerB = 501;
-    int fieldPlayerA = 0;
-    int fieldPlayerB = 0;
-    int lastScorePlayerA = 0;
-    int lastScorePlayerB = 0;
+    int fieldPlayerA;
+    int fieldPlayerB;
+    int lastScorePlayerA;
+    int lastScorePlayerB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
